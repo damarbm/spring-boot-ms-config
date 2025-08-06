@@ -8,5 +8,6 @@ eureka:
     # don't fetch all registry details of microservices
     fetchRegistry: false
     registerWithEureka: false
+    # url of exposed eureka server
     serviceUrl:
       defaultZone: https://${eureka.instance.hostname}:${server.port}/eureka/
